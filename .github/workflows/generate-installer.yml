@@ -33,7 +33,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'Comp-Labs/Download-macOS'
+    if: github.repository == 'https://github.com/Coderguy86/Download-macOS-1'
     steps:
       - uses: actions/checkout@v4
       
